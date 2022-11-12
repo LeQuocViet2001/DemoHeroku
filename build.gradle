@@ -33,6 +33,6 @@ tasks.named('test') {
     useJUnitPlatform()
 }
 
-tasks.withType(JavaExec) {
-    systemProperty "java.library.path", file("C:\\Users\\ASUS\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\site-packages\\jep")
-}
+//tasks.withType(JavaExec) {
+////    systemProperty "java.library.path", file("C:\\Users\\ASUS\\AppData\\Local\\Programs\\Python\\Python39\\Lib\\site-packages\\jep")
+//}
