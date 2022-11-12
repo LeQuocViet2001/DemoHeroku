@@ -10,9 +10,9 @@ import base64
 import pickle
 
 
-url = "c:\\Users\\ASUS\\Desktop\\DoAN7\\SimilaritySearch\\FootwearDataset\\FootwearImg\\56994.jpg"
-with open(url, "rb") as image_file:
-    data = base64.b64encode(image_file.read())
+# url = "c:\\Users\\ASUS\\Desktop\\DoAN7\\SimilaritySearch\\FootwearDataset\\FootwearImg\\56994.jpg"
+# with open(url, "rb") as image_file:
+#     data = base64.b64encode(image_file.read())
 
 # print(data)
 

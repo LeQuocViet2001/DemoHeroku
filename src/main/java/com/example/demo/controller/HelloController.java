@@ -107,7 +107,8 @@ public class HelloController {
                 return new ResponseEntity<>(  HttpStatus.NO_CONTENT);
             }
             else{
-                String pathToImage = "C:\\Users\\ASUS\\Desktop\\Test\\test1\\src\\main\\resources\\static\\FootwearImg\\";
+//                String pathToImage = "C:\\Users\\ASUS\\Desktop\\Test\\test1\\src\\main\\resources\\static\\FootwearImg\\";
+                String pathToImage = "src/main/resources/static/FootwearImg/";
                 for ( String nameImage : itemList
                      ) {
 //                    System.out.println(nameImage);
@@ -152,7 +153,8 @@ public class HelloController {
                 return new ResponseEntity<>(  HttpStatus.NO_CONTENT);
             }
             else{
-                String pathToImage = "C:\\Users\\ASUS\\Desktop\\Test\\test1\\src\\main\\resources\\static\\FootwearImg\\";
+//                String pathToImage = "C:\\Users\\ASUS\\Desktop\\Test\\test1\\src\\main\\resources\\static\\FootwearImg\\";
+                String pathToImage = "src/main/resources/static/FootwearImg/";
                 for ( String nameImage : itemList
                      ) {
 //                    System.out.println(nameImage);
