@@ -143,7 +143,6 @@ def ex_decode_img(image_string_encode):
     image = image.convert('L')
     image = numpy.array(image)
 
-    # image = color.rgb2gray(image)
     return image
 
 
