@@ -26,7 +26,7 @@ public class JythonCaller {
 
     }
 
-    public  List<String> searchImageNesNet50( String stringBase64) throws JepException {
+    public  List<String> searchImageNesNet152( String stringBase64) throws JepException {
         try(Interpreter interpreter = new SharedInterpreter();) {
 //            interpreter.runScript("C:\\Users\\ASUS\\Desktop\\DoAN7\\SimilaritySearch\\testByBase64Resnet152.py");
             interpreter.runScript("C:\\Users\\ASUS\\Desktop\\DoAN7\\SimilaritySearch\\testByBase64Resnet152.py");
